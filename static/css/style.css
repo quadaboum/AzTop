@@ -1,0 +1,15 @@
+body { background: #181c23; color: #e7e8ea; font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0;}
+.login-box, .register-box, .menu-box, .admin-box, .error-box {background: #232634; border-radius: 10px; margin: 6vh auto 0 auto; max-width: 350px; padding: 2em 2.5em; box-shadow: 0 0 25px #0009; text-align: center;}
+h1, h2 { color: #ffe66d; letter-spacing: 2px;}
+input, button {width: 90%; margin: 0.5em 0; padding: 0.7em; background: #232634; border: 1px solid #ffe66d; color: #ffe66d; border-radius: 5px; outline: none;}
+button {background: #ffe66d; color: #232634; cursor: pointer; font-weight: bold;}
+button:hover {background: #e0c243;}
+ul.nav {list-style: none; padding: 0;}
+ul.nav li {margin: 0.5em 0;}
+ul.nav a, a.btn {color: #ffe66d; text-decoration: none; font-weight: bold;}
+ul.nav a:hover, a.btn:hover {text-decoration: underline;}
+.flashes { margin: 0 0 1em 0; padding: 0;}
+.flashes li { list-style: none; margin: 0.5em 0; padding: 0.5em 1em; border-radius: 4px; background: #323652; color: #ffe66d; }
+.flashes .success { background: #26372f; color: #4cffb7; }
+.flashes .danger { background: #442c2b; color: #ff7373; }
+.flashes .warning { background: #3a2d14; color: #ffe66d; }
